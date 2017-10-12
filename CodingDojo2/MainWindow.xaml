@@ -17,6 +17,7 @@
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+            <Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Content="...tbd..."/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="350*"/>
