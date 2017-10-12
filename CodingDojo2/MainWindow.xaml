@@ -99,7 +99,11 @@
 
             </Grid>
 
-            <Label Content="12:34" Margin="5" Grid.Row="14" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Grid.ColumnSpan="2"/>
+            <StackPanel Grid.Row="14" Grid.ColumnSpan="2">
+                <Label Content="12.10.2017" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
+                <Label Content="12:34" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
+            </StackPanel>
+            
 
         </Grid>
     </Grid>
