@@ -29,7 +29,9 @@
         <Border Grid.RowSpan="2" Margin="5" Grid.Column="1" BorderThickness="1,0,0,0" BorderBrush="LightGray">
 
             <Grid Grid.Column="1">
+                <StackPanel>
                 <StackPanel Orientation="Horizontal">
+                    <Image Source="Images/Forecast weather -WF.png" Height="40"/>
                     <Label Content="20°" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
                 </StackPanel>
 
@@ -82,7 +84,7 @@
                     <Label Content="12.10.2017" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
                     <Label Content="12:34" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
                 </StackPanel>
-
+                </StackPanel>
 
             </Grid>
         </Border>
