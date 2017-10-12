@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CodingDojo2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="661" Width="1000">
+        Title="MainWindow" Height="600" Width="800">
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -79,17 +79,17 @@
 
                     <Border BorderThickness="0,0,0,1" BorderBrush="White">
                         <StackPanel>
-                            <Button Content="Übersicht" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                            <Button Content="Übersicht" Margin="5" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                            <Button Content="Räume" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                            <Button Content="Räume" Margin="5" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                            <Button Content="Geräte" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                            <Button Content="Geräte" Margin="5" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                            <Button Content="Gebäude" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                            <Button Content="Gebäude" Margin="5" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                            <Button Content="Sicherheit" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                            <Button Content="Sicherheit" Margin="5" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                            <Button Content="Multimedia" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                            <Button Content="Multimedia" Margin="5" Background="Black" Foreground="White" BorderBrush="White"/>
                         </StackPanel>
                     </Border>
 
