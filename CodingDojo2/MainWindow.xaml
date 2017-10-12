@@ -30,80 +30,61 @@
         </Grid>
 
         <Grid Grid.Column="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="49*"/>
-                <ColumnDefinition Width="151*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Image Grid.Row="0" Grid.Column="0" Source="Images\Forecast weather -WF.png"/>
-            <Label Grid.Row="0" Grid.Column="1" Content="20°" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
 
-            <Image Grid.Row="1" Grid.Column="0" Source="Images\Wind.png"/>
-            <Label Grid.Row="1" Grid.Column="1" Content="12 km/h" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="20°" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Image Grid.Row="2" Grid.Column="0" Source="Images\Solar.png"/>
-            <Label Grid.Row="2" Grid.Column="1" Content="3.545 W" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            <StackPanel  Orientation="Horizontal">
+                <Label Content="12 km/h" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Image Grid.Row="3" Grid.Column="0" Source="Images\Man-01.png"/>
-            <Label Grid.Row="3" Grid.Column="1" Content="0" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            <StackPanel  Orientation="Horizontal">
+                <Label Grid.Row="2" Grid.Column="1" Content="3.545 W" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Image Grid.Row="4" Grid.Column="0" Source="Images\Lock-WF.png"/>
-            <Label Grid.Row="4" Grid.Column="1" Content="OK" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            <StackPanel  Orientation="Horizontal">
+                <Label Content="0" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Image Grid.Row="5" Grid.Column="0" Source="Images\Message Mail-WF.png"/>
-            <Label Grid.Row="5" Grid.Column="1" Content="7" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            <StackPanel  Orientation="Horizontal">
+                <Label Content="OK" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Image Grid.Row="6" Grid.Column="0" Source="Images\Tasks.png"/>
-            <Label Grid.Row="6" Grid.Column="1" Content="4" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            <StackPanel  Orientation="Horizontal">
+                <Label Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Button Grid.Row="7" Grid.ColumnSpan="2" Content="Übersicht" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+            <StackPanel  Orientation="Horizontal">
+                <Label Content="4" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
 
-            <Button Grid.Row="8" Grid.ColumnSpan="2" Content="Räume" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+            <StackPanel>
+                <Button Content="Übersicht" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-            <Button Grid.Row="9" Grid.ColumnSpan="2" Content="Geräte" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                <Button Content="Räume" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-            <Button Grid.Row="10" Grid.ColumnSpan="2" Content="Gebäude" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                <Button Content="Geräte" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-            <Button Grid.Row="11" Grid.ColumnSpan="2" Content="Sicherheit" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                <Button Content="Gebäude" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-            <Button Grid.Row="12" Grid.ColumnSpan="2" Content="Multimedia" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                <Button Content="Sicherheit" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-            <Grid Grid.Row="13" Grid.ColumnSpan="2" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+                <Button Content="Multimedia" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+            </StackPanel>
 
+            <!--<StackPanel  Orientation="Horizontal">
                 <Image Grid.Column="0" Source="Images\Bell New-WF.png"/>
                 <Image Grid.Column="1" Source="Images\Speaker Decrease - 01.png"/>
                 <Label Grid.Column="2" Content="4" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Image Grid.Column="3" Source="Images\Speaker Increase - 02.png"/>
+            </StackPanel>-->
 
-            </Grid>
-
-            <StackPanel Grid.Row="14" Grid.ColumnSpan="2">
+            <StackPanel  Orientation="Horizontal">
                 <Label Content="12.10.2017" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
                 <Label Content="12:34" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
             </StackPanel>
-            
+
 
         </Grid>
     </Grid>
