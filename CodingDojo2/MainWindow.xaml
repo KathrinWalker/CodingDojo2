@@ -18,6 +18,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Content="...tbd..."/>
+            
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="350*"/>
@@ -29,63 +30,65 @@
             </Grid>
         </Grid>
 
-        <Grid Grid.Column="1">
+        <Border Grid.RowSpan="2" Margin="5" Grid.Column="1" BorderThickness="1,0,0,0" BorderBrush="LightGray">
+            <Grid Grid.Column="1">
 
-            <StackPanel Orientation="Horizontal">
-                <Label Content="20°" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="20°" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Content="12 km/h" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Content="12 km/h" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Grid.Row="2" Grid.Column="1" Content="3.545 W" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Grid.Row="2" Grid.Column="1" Content="3.545 W" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Content="0" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Content="0" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Content="OK" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Content="OK" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Content="4" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Content="4" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                </StackPanel>
 
-            <StackPanel>
-                <Button Content="Übersicht" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                <StackPanel>
+                    <Button Content="Übersicht" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                <Button Content="Räume" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                    <Button Content="Räume" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                <Button Content="Geräte" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                    <Button Content="Geräte" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                <Button Content="Gebäude" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                    <Button Content="Gebäude" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                <Button Content="Sicherheit" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                    <Button Content="Sicherheit" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
 
-                <Button Content="Multimedia" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
-            </StackPanel>
+                    <Button Content="Multimedia" Margin="10" Background="Black" Foreground="White" BorderBrush="White"/>
+                </StackPanel>
 
-            <!--<StackPanel  Orientation="Horizontal">
+                <!--<StackPanel  Orientation="Horizontal">
                 <Image Grid.Column="0" Source="Images\Bell New-WF.png"/>
                 <Image Grid.Column="1" Source="Images\Speaker Decrease - 01.png"/>
                 <Label Grid.Column="2" Content="4" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 <Image Grid.Column="3" Source="Images\Speaker Increase - 02.png"/>
             </StackPanel>-->
 
-            <StackPanel  Orientation="Horizontal">
-                <Label Content="12.10.2017" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
-                <Label Content="12:34" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
-            </StackPanel>
+                <StackPanel  Orientation="Horizontal">
+                    <Label Content="12.10.2017" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
+                    <Label Content="12:34" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"/>
+                </StackPanel>
 
 
-        </Grid>
+            </Grid>
+        </Border>
     </Grid>
 </Window>
