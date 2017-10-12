@@ -17,22 +17,18 @@
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+
+            <StackPanel Orientation ="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image HorizontalAlignment="Right" VerticalAlignment="Center" Source="Images\Warning-WF.png"/>
+                <Label Content="Grauwasser Überlauf" Foreground="White" VerticalContentAlignment="Center"/>
+            </StackPanel>
+            <Border BorderBrush="Red" BorderThickness="1" Margin="5"/>
             <Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Content="...tbd..."/>
-            
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="350*"/>
-                    <ColumnDefinition Width="493*"/>
-                </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Source="Images\Warning-WF.png" Margin="5,5,20,5"/>
-                <Label Grid.Column="1" Content="Grauwasser Überlauf" Foreground="White" VerticalContentAlignment="Center"/>
-                <Border Grid.ColumnSpan="2" BorderBrush="Red" BorderThickness="1" Margin="5"/>
-            </Grid>
         </Grid>
-
+        
         <Border Grid.RowSpan="2" Margin="5" Grid.Column="1" BorderThickness="1,0,0,0" BorderBrush="LightGray">
-            <Grid Grid.Column="1">
 
+            <Grid Grid.Column="1">
                 <StackPanel Orientation="Horizontal">
                     <Label Content="20°" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
                 </StackPanel>
