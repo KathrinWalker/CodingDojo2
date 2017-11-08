@@ -23,7 +23,39 @@
                 <Label Content="Grauwasser Überlauf" Foreground="White" VerticalContentAlignment="Center"/>
             </StackPanel>
             <Border BorderBrush="Red" BorderThickness="1" Margin="5"/>
-            <Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Content="...tbd..."/>
+            <!--<Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Content="...tbd..."/>-->
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Aktoren" Foreground="White" Margin="5" Grid.Row="0"/>
+                    <DataGrid Grid.Row="1" Margin="5"/>
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="Hinzufügen" Margin="5" Foreground="White" Background="Black" BorderThickness="1" BorderBrush="White"/>
+                        <Button Content="Löschen" Margin="5" Foreground="White" Background="Black" BorderThickness="1" BorderBrush="White"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Sensoren" Foreground="White" Margin="5" Grid.Row="0"/>
+                    <DataGrid Grid.Row="1" Margin="5"/>
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="Hinzufügen" Margin="5" Foreground="White" Background="Black" BorderThickness="1" BorderBrush="White"/>
+                        <Button Content="Löschen" Margin="5" Foreground="White" Background="Black" BorderThickness="1" BorderBrush="White"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
         </Grid>
 
         <Border Margin="5" Grid.Column="1" BorderThickness="1,0,0,0" BorderBrush="White">
@@ -93,7 +125,7 @@
                         </StackPanel>
                     </Border>
 
-                    <Border BorderThickness="0,0,0,1" BorderBrush="White">
+                    <Border BorderThickness="0,0,0,0" BorderBrush="White">
                         <StackPanel  Orientation="Horizontal">
                             <Image Grid.Column="0" Source="Images\Bell New-WF.png" Height="40"/>
                             <Image Grid.Column="1" Source="Images\Speaker Decrease - 01.png" Height="40"/>
